@@ -1,0 +1,6 @@
+1.sublime Text 설치
+2.2dcoding 글꼴 설치 - windows fonts 로 이동
+3.Preferences - setting - 글꼴 설정 
+4.오른쪽 하단 HTML 설정
+5.Tools 맨밑에 설치 
+6.Preferences - Package control - javascript 검색 - complet 선택 
