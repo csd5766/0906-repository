@@ -1,0 +1,2 @@
+blocking, non-blocking
+synchronous,asynchronous 개념 찾아보기 
