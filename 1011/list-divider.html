@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>jQuery Mobile</title>
+	<!-- <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> --> <!-- 불러오는 방식 인터넷 안되면 안됨  -->
+
+	<link rel="stylesheet" href="mjquery/jquery.mobile-1.4.5.min.css"></script><!--  다운로드 방식 다운해서 폴더안에넣어서 사용함 인터넷 없어도 가능  -->
+	<script src="mjquery/jquery-1.11.1.min.js"></script>
+	<script src="mjquery/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+<div data-role="page">
+		<div data-role="header">
+			<h1>header영역</h1>
+		</div>
+		<div data-role="content">
+			<p>content영역</p>
+			<ul data-role="listview">
+				<li data-role="listdivider">ㄱ</li>
+				<li><a href="#">강</a></li>
+				<li data-role="listdivider" data-divider-theme="a">ㅅ</li>
+				<li><a href="#">산</a></li>
+				<li><a href="#">산기슭</a></li>
+				<li data-role="listdivider">ㅊ</li>
+				<li><a href="#">차승도</a></li>
+
+			</ul>
+	
+
+		</div>
+
+		<div data-role="footer" data-position="fixed">
+			<h4>footer영역</h4>
+		</div>
+
+	</div>
+</body>
+</html>
